@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #212529;
+}
+
+.container + .container {
+    margin-top: 40px;
+}
+
+.left {
+    width: 150px;
+}
+
+.image {
+    width: 100%;
+    margin-bottom: 8px;
+    border: 2px solid #f8f9fa;
+}
+
+.right {
+    width: 600px;
+}
+
+.title {
+    font-size: 16px;
+    margin: 0 0 16px;
+}
+
+.title span {
+    font-weight: 400;
+}
+
+.meta {
+    font-size: 13px;
+    color: #6c757d;
+    margin-bottom: 2px;
+}
+
+.meta span {
+    display: inline-block;
+    margin-right: 10px;
+}

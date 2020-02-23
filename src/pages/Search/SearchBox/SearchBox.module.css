@@ -1,0 +1,36 @@
+.container {
+    width: 800px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.input {
+    width: 250px;
+    height: 40px;
+    border: 2px solid #ced4da;
+    outline: none;
+    box-shadow: none;
+    padding: 0 8px;
+    font-size: 16px;
+    color: #495057;
+}
+
+.input:focus,
+.input:active {
+    border-color: #80bdff;
+}
+
+.button {
+    height: 40px;
+    width: 100px;
+    background: #17a2b8;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+}
+
+.button:hover {
+    background: #138496;
+}
